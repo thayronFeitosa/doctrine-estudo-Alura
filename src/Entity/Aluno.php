@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Alura\Doctrine\Entity;
 
 /**
