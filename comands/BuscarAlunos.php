@@ -22,8 +22,7 @@ echo $maria->getNome() ."\n\n";
 
 //buscando por Nome 
 
-$joao = $alunoRepository->findOneBy([
+$joao = $alunoRepository->findBy([
     'nome'=> 'joao'
 ]);
 
-echo $joao->getNome(). "\n";
