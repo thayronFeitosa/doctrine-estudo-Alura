@@ -9,25 +9,39 @@ class ComposerStaticInit5beb2bd3ce5e584b4706dd3ba7a23bb5
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
+        '7e9bd612cc444b3eed788ebbe46263a0' => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src/autoload.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'Webimpress\\SafeWriter\\' => 22,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php73\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Contracts\\Service\\' => 26,
+            'Symfony\\Component\\Stopwatch\\' => 28,
             'Symfony\\Component\\Console\\' => 26,
         ),
         'P' => 
         array (
             'Psr\\Container\\' => 14,
+            'ProxyManager\\' => 13,
             'PackageVersions\\' => 16,
+        ),
+        'L' => 
+        array (
+            'Laminas\\ZendFrameworkBridge\\' => 28,
+            'Laminas\\EventManager\\' => 21,
+            'Laminas\\Code\\' => 13,
         ),
         'D' => 
         array (
             'Doctrine\\Persistence\\' => 21,
             'Doctrine\\ORM\\' => 13,
+            'Doctrine\\Migrations\\' => 20,
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Inflector\\' => 19,
             'Doctrine\\DBAL\\' => 14,
@@ -45,6 +59,10 @@ class ComposerStaticInit5beb2bd3ce5e584b4706dd3ba7a23bb5
     );
 
     public static $prefixDirsPsr4 = array (
+        'Webimpress\\SafeWriter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webimpress/safe-writer/src',
+        ),
         'Symfony\\Polyfill\\Php73\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php73',
@@ -57,6 +75,10 @@ class ComposerStaticInit5beb2bd3ce5e584b4706dd3ba7a23bb5
         array (
             0 => __DIR__ . '/..' . '/symfony/service-contracts',
         ),
+        'Symfony\\Component\\Stopwatch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/stopwatch',
+        ),
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
@@ -65,9 +87,25 @@ class ComposerStaticInit5beb2bd3ce5e584b4706dd3ba7a23bb5
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
+        'ProxyManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ocramius/proxy-manager/src/ProxyManager',
+        ),
         'PackageVersions\\' => 
         array (
             0 => __DIR__ . '/..' . '/ocramius/package-versions/src/PackageVersions',
+        ),
+        'Laminas\\ZendFrameworkBridge\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src',
+        ),
+        'Laminas\\EventManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laminas/laminas-eventmanager/src',
+        ),
+        'Laminas\\Code\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laminas/laminas-code/src',
         ),
         'Doctrine\\Persistence\\' => 
         array (
@@ -76,6 +114,10 @@ class ComposerStaticInit5beb2bd3ce5e584b4706dd3ba7a23bb5
         'Doctrine\\ORM\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/orm/lib/Doctrine/ORM',
+        ),
+        'Doctrine\\Migrations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/migrations/lib/Doctrine/Migrations',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

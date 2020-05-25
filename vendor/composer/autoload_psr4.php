@@ -6,14 +6,21 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Webimpress\\SafeWriter\\' => array($vendorDir . '/webimpress/safe-writer/src'),
     'Symfony\\Polyfill\\Php73\\' => array($vendorDir . '/symfony/polyfill-php73'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Contracts\\Service\\' => array($vendorDir . '/symfony/service-contracts'),
+    'Symfony\\Component\\Stopwatch\\' => array($vendorDir . '/symfony/stopwatch'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
+    'ProxyManager\\' => array($vendorDir . '/ocramius/proxy-manager/src/ProxyManager'),
     'PackageVersions\\' => array($vendorDir . '/ocramius/package-versions/src/PackageVersions'),
+    'Laminas\\ZendFrameworkBridge\\' => array($vendorDir . '/laminas/laminas-zendframework-bridge/src'),
+    'Laminas\\EventManager\\' => array($vendorDir . '/laminas/laminas-eventmanager/src'),
+    'Laminas\\Code\\' => array($vendorDir . '/laminas/laminas-code/src'),
     'Doctrine\\Persistence\\' => array($vendorDir . '/doctrine/persistence/lib/Doctrine/Persistence'),
     'Doctrine\\ORM\\' => array($vendorDir . '/doctrine/orm/lib/Doctrine/ORM'),
+    'Doctrine\\Migrations\\' => array($vendorDir . '/doctrine/migrations/lib/Doctrine/Migrations'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'Doctrine\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Inflector'),
     'Doctrine\\DBAL\\' => array($vendorDir . '/doctrine/dbal/lib/Doctrine/DBAL'),
