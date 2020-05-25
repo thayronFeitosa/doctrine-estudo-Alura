@@ -15,3 +15,15 @@ $alunoList = $alunoRepository->findAll();
 foreach($alunoList as $aluno){
     echo"ID: {$aluno->getId()} \nNome: {$aluno->getNome()}\n\n"; 
 }
+//buscando por id
+$maria = $alunoRepository->find(4);
+
+echo $maria->getNome() ."\n\n";
+
+//buscando por Nome 
+
+$joao = $alunoRepository->findOneBy([
+    'nome'=> 'joao'
+]);
+
+echo $joao->getNome(). "\n";

@@ -6,7 +6,7 @@ use Alura\Doctrine\Helper\EntityManagerFactory;
 require_once __DIR__ .'/../vendor/autoload.php';
 
 $aluno = new Aluno();
-$aluno->setNome('joao');
+$aluno->setNome('Maria Joaquina');
 
 $entityManagerFactory = new EntityManagerFactory();
 $entityManager = $entityManagerFactory->getEntityManager();
